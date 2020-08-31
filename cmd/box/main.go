@@ -47,7 +47,7 @@ func main() {
 
 	ctx := context.Background()
 
-	lines, err := box.GetPlayTime(ctx, steamID, appIDList...)
+	lines, err := box.GetPlayTime(ctx, steamID)
 	if err != nil {
 		panic("GetPlayTime err:" + err.Error())
 	}
