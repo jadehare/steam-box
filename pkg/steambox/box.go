@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	steam "github.com/jadehare/steam-go/pkg"
+	steam "github.com/YouEclipse/steam-go/pkg"
 	"github.com/google/go-github/github"
 	"github.com/mattn/go-runewidth"
 )
