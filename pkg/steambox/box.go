@@ -127,7 +127,6 @@ func pad(s, pad string, targetLength int) string {
 	if padding <= 0 {
 		return s
 	}
-
 	return s + strings.Repeat(pad, padding)
 }
 
